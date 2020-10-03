@@ -1,0 +1,183 @@
+
+.red{color: #ff2c2d !important;}
+
+  .green {
+    color: #17ff2e !important; }
+  
+  .blue {
+    color: #1b91ff !important; }
+  
+  .bgcover{
+    background-position: center center;
+   background-size: cover;
+  }
+  .overwhite h3{
+    color: white !important;
+    text-shadow: 1px 1px 4px #000000;
+  }
+
+  /* animation for img-responsive */
+  .flex {
+    animation: resize ease 4s infinite alternate;
+		display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+		margin: auto;
+  }
+
+  /* animation per space-around */
+
+  .flex-space {
+    animation: resize3 ease 4s infinite alternate;
+		display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+		margin: auto;
+  }
+  @keyframes resize3 {
+    from { transform: scale(0.9); }
+    /* 50% {width: 700px;} */
+    to { transform: scale(1.1); }
+  }
+  .flex-space img{
+    width: 60%;
+    height: auto;
+  }
+  .flex-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button{
+    background-color: rgb(255, 125, 4);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 20px rgba(170, 169, 169, 0.6); */
+  }
+
+  .grazie{
+    animation: resize4 ease 1s infinite alternate;
+    display: flex;
+    color: orangered;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+		margin: auto;
+  }
+  @keyframes resize4 {
+    from { transform: scale(0.8); }
+    /* 50% {width: 700px;} */
+    to { transform: scale(1.4); }
+  }
+
+  .mquery {
+    animation: resize2 ease 3s infinite alternate;
+		display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+		margin: auto;
+	}
+ .mquery{
+   width: 300px;
+   flex-wrap: wrap;
+   border: 5px solid #777;
+   padding: 2px;
+   border-radius: 10px;
+ }
+
+ .mquery .item {
+  flex-grow: 1;
+  margin-left:10px;
+  font-size: 0.8rem;
+}
+
+	.flex .item {
+    flex-grow: 1 1;
+    margin-left:30px;
+  }
+  .item img,
+  .gif{
+    border: 0px !important;
+  }
+  .gif{
+    width: 500px;
+  }
+  .bigger{
+   width: 120%;
+  }
+  .myRow{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem;
+  }
+  .myRow2{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .myCol{
+  font-size: 80%;
+  }
+  .resetFont{
+    font-size: 100%;
+  }
+
+
+ 
+
+	.flex--fixed .item {
+		flex-basis: 120px;
+	}
+  @keyframes resize {
+    from { width: 70%; }
+    50% {width: 45%;}
+    to { width: 20%; }
+  }
+  @keyframes resize2 {
+    from { width: 280px; }
+    /* 50% {width: 700px;} */
+    to { width: 150px; }
+  }
+  .wpmi{
+    border: 0 !important;
+    background: transparent !important;
+    width: 50%;
+    height: auto;
+  }
+/* SASS demo - variables colors on grid */
+figure{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 19px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  }
+.o1{  background-color: rgba(195, 8, 65, 0.5);}
+.o2{   background-color: rgba(0, 0, 0, 0.5);}
+.o3{  background-color: rgba(222, 239, 11, 0.5);}
+.o4{  background-color: rgba(9, 199, 16, 0.5);}
+
+
+  /* .reveal .slide-background-content {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  .mzero{
+    margin: 0 !important;
+    }
+.force-color{
+  color: #fff !important;
+}
+.spav{
+  flex-direction: column;
+  justify-content: space-around;
+  height: 280px;
+}
+
+ 
