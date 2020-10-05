@@ -15,6 +15,9 @@
     color: white !important;
     text-shadow: 1px 1px 4px #000000;
   }
+  .left{text-align: left;}
+  .right{text-align: right;}
+  .center{text-align: center;}
 
   /* animation for img-responsive */
   .flex {
